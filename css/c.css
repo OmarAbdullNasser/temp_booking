@@ -1,0 +1,30 @@
+.body{
+  margin: auto;
+}
+.active{
+  border-bottom: 3px solid white;
+}
+.my-row{
+  text-align: right;
+}
+
+.crona-text{
+  font-size: 18px;
+  font-weight:bold;
+
+}
+.CT{
+  display: none;
+}
+
+.UP{
+  display: none;
+}
+
+.DW{
+  display:none;
+}
+
+.filter{
+  filter:drop-shadow();
+}

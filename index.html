@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>booking.com </title>
+  <!--CSS Sheats-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/c.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<div class="header">
+  <nav class="navbar navbar-light"style="background-color:#003580; ">
+  <a class="navbar-brand" href="#" >
+    <img src="https://cf.bstatic.com/static/img/b26logo/booking_logo_retina_ar2/0fd7e3d6d2e3f00adc4ac3ec04e0d30a3e701da8.png" width="219" height="25" class="d-inline-block float-rigth" alt="" loading="lazy">
+    <span style="color:white;">عربي</span>
+  </a>
+      <ul class="nav ">
+      <li class="nav-item ">
+        <a class="nav-link" href="#" style="color:white;">EGP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="العربية"></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#" style="margin-right: 5px;"><i class="far fa-question-circle" style="color:white;"></i></a>
+      </li>
+      <li class="nav-item">
+        <button class="btn  btn-lg" type="button" style="background-color:#003580; color:white;border:3px solid white;">اعرض عقارك علي موقعنا </button>
+      </li>
+      <li class="nav-item">
+        <button class="btn btn-lg" type="button" style="background-color:white; color:black; margin-left:8px;">انشاء حساب</button>
+      </li>
+      <li class="nav-item ">
+        <button class="btn btn-lg" type="button" style="background-color:white; color:black; margin-left:8px;"> تسجيل دخول</button>
+      </li>
+      </ul>
+  </nav>
+  <div class="opations"style="background-color:#003580; padding-top: 8px;">
+    <ul class="nav">
+
+    <li class="nav-item active" style="margin-bottom:5px;">
+      <a class="nav-link"  href="#" style="color:white; margin-left:13px;">
+        <i class="fas fa-hotel fa-2x"></i>
+        <span style="font-size: 24px;font-weight: bold;">الاقامات</span>
+      </a>
+    </li>
+
+    <li class="nav-item no-active">
+      <a class="nav-link " href="#" style="color:white; margin-left:13px; margin-bottom:5px;">
+      <i class="fas fa-plane-departure fa-2x"></i>
+        <span style="font-size: 24px;font-weight: bold;">
+          رحلات الطيران
+        </span>
+      </a>
+    </li>
+
+
+    <li class="nav-item no-active">
+      <a class="nav-link " href="#" style="color:white; margin-left:13px; margin-bottom:5px;">
+      <i class="fas fa-car-side fa-2x"></i>
+        <span style="font-size: 24px;font-weight: bold;">
+          تأجير السيارات
+        </span>
+      </a>
+    </li>
+
+    <li class="nav-item no-active">
+      <a class="nav-link " href="#" style="color:white; margin-left:13px; margin-bottom:5px;">
+        <i class="fas fa-dharmachakra fa-2x"></i>
+        <span style="font-size: 24px;font-weight: bold;">ا
+        المعالم السياحية
+          </span>
+      </a>
+    </li>
+
+
+    <li class="nav-item no-active">
+      <a class="nav-link " href="#" style="color:white; margin-left:13px; margin-bottom:5px;">
+      <i class="fas fa-car-side fa-2x"></i>
+        <span style="font-size: 24px;font-weight: bold;">
+          سيارات أجر المطار
+          </span>
+      </a>
+    </li>
+
+    </ul>
+  </div>
+</div>
+
+<div class="crona">
+  <div class="container">
+    <div class="row  my-row" id="crona-link">
+      <div class="col-11 order-12">
+        <a class="nav-link" href="#" style="margin-left:5px; color:black;">
+          <span class="crona-text">
+            مساعدة بخصوص فيروس كورونا (كوفيد - 19)
+           </span>
+           <i class="fas fa-info-circle" style="color:#cd8900; margin-left:5px;" ></i>
+        </a>
+      </div>
+      <div class="col-1 order-1">
+      <a href="#"><i class="fas fa-caret-down " style=" margin-top:8px; color:black;" id="down"></i>
+      <i class="fas fa-sort-up UP"style=" margin-top:8px; color:black;"id="up" ></i>
+    </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <p  style="text-align:right;"  class="CT" id="CT" > يرجى التحقق من قيود السفر. قد يكون السفر مسموحاً لأغراض معيّنة فقط وعلى وجه الخصوص قد لا يُسمح بالسفر السياحي</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="search">
+  <div class="container-fluid" style="padding-right:10px;">
+    <div class="row" style="height: 261px;">
+    <div class="col"style=" background: #f5f5f5; text-align:right;">
+        <h3 style="color:black;text-align:right;margin:31px;margin-bottom: 0;">...استكشف عروض الفنادق والبيوت وغيرها الكثير</h3>
+        <span style="color:black;margin:31px;margin-bottom: 0;">من البيوت الريفية الدافئة إلى شقق المدينة العصرية</span>
+        <br>
+        <div class="search item">
+            <button type="button" name="button" style="height: 52px;width: 20%;background-color: #0071c2;color: white;border: 5px solid #febb02;font-size: 20px;">بحث</button>
+          <input type="search" name="" value="" style="margin: 31px;margin-right: 0;margin-left: 0;border: 5px solid #febb02;width: 31%;height: 52px;line-height: 20px;text-align: right;"  placeholder=" شخصان بالغين بدون أطفال - غرفة وحده" >
+          <input type="month" name="" value="" style="margin: 31px;margin-left: 0;margin-right: 0;border: 5px solid #febb02;width: 20%;height: 52px;line-height: 20px;text-align: right;" placeholder="تاريخ الوصول - تاريخ المغادره">
+          <input type="search" name="" value="" style="margin: 31px;margin-left: 0;margin-bottom: 0;border: 5px solid #febb02;width: 20%;height: 52px;line-height: 20px;text-align: right;" placeholder="ما هي وجهتك؟">
+
+          <div style="margin: 31px;margin-top:0">
+            <span>مسافر في رحلة عمل</span>
+            <input type="checkbox" name="" value="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div class="travl-area" style="height:200px; margin:30px;">
+  <div class="container-fluid">
+    <div class="offer">
+      <div class="row" style="border:1px solid rgb(230 230 230); padding:10px; height: 145px;" id="offer">
+        <div class="col" style="text-align:right;">
+          <button type="button" name="button" style="float:left;background:none;border:none;outline:none;font-size:15px;font-size: 22px;width: 31px;color: grey;" id="close">X</button>
+          <img src="https://cf.bstatic.com/static/img/deals/index_banner_getaway2020/312c784f761fc4f1e315742e93b9fa10d96ea67d.jpg" alt="" class="rounded float-right" style="width:92px; margin-left:12px;">
+          <span style="display:block; padding:5px;font-size:20px;font-weight:bold;">عرض السفر</span>
+          <span style="display:block;padding:5px;margin-bottom:10px;">استمتع بخصم بنسبة 15% أو أكثر على الإقامات من اليوم وحتى 4 يناير 2021</span>
+          <a href="#"style="color:#0071c2;border:3px solid #0071c2;padding:5px;margin-bottom:5px;">اطلع علي العروض </a>
+      </div>
+        </div>
+
+    <div class="row " style="text-align:right;">
+      <div class="col-6 ml-auto order-12" style="background:url(https://cf.bstatic.com/xdata/images/city/540x270/644363.webp?k=d7dfbc64880d52cf00797f6a0e34568e4d25fc913a719a721a06832b5c5a9308&o=) no-repeat center center; height:270px;background-size: cover;">
+        <h3 style="color:white;font-size: 35px;padding: 7px;margin-bottom: 0;text-shadow: -1px 1px 1px #000;">
+          <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+          القاهره
+        </h3>
+        <p style="color:white; margin-right: 9px;text-shadow: -1px 1px 1px #000;">1,434 عقار</p>
+        <div style="background-color:#333;height:42px;width:14%;position: absolute;bottom: 10px;left: 10px;text-align: left; color:white;font-size: 12px;font-weight: bold; line-height: 18px;  display: inline-block;padding-top: 4px; padding-left:9px;">
+      <span>متوسّط السعر</span>
+      <span>EGP 875</span>
+
+        </div>
+      </div>
+
+
+
+      <div class="col-5 mr-auto order-1"style=" background: url(https://cf.bstatic.com/xdata/images/city/540x270/644628.webp?k=d295396b7c00f401caf286bf434e06a9537876ab0302f7793026ade9d6624bcf&o=) no-repeat center center; height:270px;background-size: cover;">
+        <h3 style="color:white;font-size: 35px;padding: 7px;margin-bottom: 0;text-shadow: -1px 1px 1px #000;;">
+          <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+        شرم الشيخ
+        </h3>
+        <p style="color:white; margin-right: 9px;text-shadow: -1px 1px 1px #000;">370 عقار</p>
+        <div style="background-color:#333;height:42px;width:17%;position: absolute;bottom: 10px;left: 10px;text-align: left; color:white;font-size: 12px;font-weight: bold; line-height: 18px;  display: inline-block;padding-top: 4px;padding-left:9px;">
+      <span>متوسّط السعر</span>
+      <span>EGP 1,564</span>
+      </div>
+    </div>
+      </div>
+      <br>
+        <!-- COMBAK: frist col -->
+
+          <div class="row" style="text-align:right;">
+      <div class="col-4"  style="background: url(https://cf.bstatic.com/xdata/images/city/540x270/691351.webp?k=929a4b1f410d06807dfc972d32353bb1fc4bb2028b5c5742fc807a6e63fff86f&o=) no-repeat center center; height:270px;background-size: cover;">
+        <h3 style="color:white;font-size: 35px;padding: 7px;margin-bottom: 0;text-shadow: -1px 1px 1px #000;;">
+          <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+        العين السخنة
+            </h3>
+        <p style="color:white; margin-right: 9px;text-shadow: -1px 1px 1px #000;">419عقار</p>
+        <div style="background-color:#333;height:42px;width: 21%;position: absolute; bottom: 10px;left: 10px;text-align: left; color:white;font-size: 12px;font-weight: bold; line-height: 18px;  display: inline-block;padding-top: 4px; padding-left:9px;">
+        <span>متوسّط السعر</span>
+        <span>EGP 1512</span>
+
+        </div>
+      </div>
+        <!-- COMBAK: secand col -->
+
+    <div class="col-3" style="background: url(https://cf.bstatic.com/xdata/images/city/540x270/644353.webp?k=4128bd68972a65b2ba7b708effdd3693e820e1c83748cefedef387bd85abe715&o=) no-repeat center center; height:270px;background-size: cover; margin-left: 57px;">
+        <h3 style="color:white;font-size: 35px;padding: 7px;margin-bottom: 0;text-shadow: -1px 1px 1px #000;;">
+          <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+          الاسكندرية
+            </h3>
+        <p style="color:white; margin-right: 9px;text-shadow: -1px 1px 1px #000;">390عقار</p>
+        <div style="background-color:#333;height:42px;width: 27%;  position: absolute; bottom: 10px;left: 10px;text-align: left; color:white;font-size: 12px;font-weight: bold; line-height: 18px;  display: inline-block;padding-top: 4px; padding-left:9px;">
+        <span>متوسّط السعر</span>
+        <span>EGP 1,036</span>
+
+        </div>
+      </div>
+
+        <!-- COMBAK: thrid col -->
+      <div class="col-4 ml-auto"style="background: url(https://cf.bstatic.com/xdata/images/city/540x270/644333.webp?k=5ef264baf6fb50c13b119d4b378111f7072e30c42996c51ce7e76f2574e1d785&o=) no-repeat center center; height:270px;background-size: cover; margin-left: 10px;">
+        <h3 style="color:white;font-size: 35px;padding: 7px;margin-bottom: 0; text-shadow: -1px 1px 1px #000;;">
+          <img src="https://cf.bstatic.com/static/img/flags/24/eg/94c2ce480065a13673761094eee3253d71aaf5df.png" alt="">
+         الغردقة
+            </h3>
+        <p style="color:white; margin-right: 9px;text-shadow: -1px 1px 1px #000;">896عقار</p>
+        <div style="background-color:#333;height:42px;width: 21%;position: absolute; bottom: 10px;left: 10px;text-align: left; color:white;font-size: 12px;font-weight: bold; line-height: 18px;  display: inline-block;padding-top: 4px; padding-left:9px;">
+        <span>متوسّط السعر</span>
+        <span>EGP 1,331</span>
+
+        </div>
+      </div>
+      </div>
+
+      <!-- COMBAK: hoteling -->
+    <div  style="text-align:right; margin-top:20px;">
+        <div class="col">
+            <h1>ابحث حسب نوع مكان الإقامة</h1>
+        </div>
+      </div>
+
+   <div class="row" style="text-align:right; margin-top:10px;">
+      <!-- COMBAK: first col  -->
+        <div  >
+            <img src="https://cf.bstatic.com/xdata/images/xphoto/square300/57584488.webp?k=bf724e4e9b9b75480bbe7fc675460a089ba6414fe4693b83ea3fdd8e938832a6&o=" alt="" style="margin-bottom:11px; height:180px;">
+            <div>
+              <h3> <a href="#">فنادق</a> </h3>
+              <p>722,539 فندق</p>
+            </div>
+      </div>
+        <!-- COMBAK: secand col -->
+      <div style="margin:3px 0;width:20%;">
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-apartments_300/9f60235dc09a3ac3f0a93adbc901c61ecd1ce72e.jpg" alt="" style="margin-bottom:11px; height:180px;width:80%;">
+            <div>
+              <h3> <a href="#">الشقق</a> </h3>
+              <p>799,648 شقة</p>
+            </div>
+        </div>
+        <!-- COMBAK: thrid col -->
+        <div style="margin:3px 0;width:20%;">
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/bg_resorts/6f87c6143fbd51a0bb5d15ca3b9cf84211ab0884.jpg" alt="" style="margin-bottom:11px; height:180px; width:80%;">
+            <div>
+              <h3> <a href="#">منتجعات</a> </h3>
+              <p>20,506 منتجع</p>
+            </div>
+        </div>
+
+      <!-- COMBAK: frouth col -->
+        <div style="margin:3px 0;width:20%;">
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-villas_300/dd0d7f8202676306a661aa4f0cf1ffab31286211.jpg" alt="" style="margin-bottom:11px; height:180px;">
+            <div>
+              <h3> <a href="#">فيلات</a> </h3>
+              <p>403,021 فيلا</p>
+            </div>
+        </div>
+        <!-- COMBAK: fifth col -->
+        <div style="margin:3px;width:20%;">
+            <img src="https://cf.bstatic.com/static/img/theme-index/carousel_320x240/card-image-chalet_300/8ee014fcc493cb3334e25893a1dee8c6d36ed0ba.jpg" alt="" style="margin-bottom:11px; height:180px; margin-left:22px;">
+            <div>
+              <h3> <a href="#">شيالهات</a> </h3>
+              <p>14,112 شاليه</p>
+            </div>
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="discover-area">
+  <div class="container-fluid">
+    <div  style="text-align:right; margin-top:20px;">
+      <div class="row">
+        <div class="col">
+          <h4>استكشف مصر</h4>
+          <p>لدى هذه الوجهات الرائجة الكثير لتقدّمه</p>
+        </div>
+      </div>
+
+
+        <div class="row" style="text-align:right; margin-top:10px;">
+           <!-- COMBAK: first col  -->
+             <div style="margin:3px 0;width:20%;" >
+                 <img src="http://aff.bstatic.com/images/city/square250/644/644338.jpg" alt="" style="margin-bottom:11px; height:180px;">
+                 <div>
+                   <h3> <a href="#">الإسكندرية</a> </h3>
+                   <p>389 مكان إقامة</p>
+                 </div>
+           </div>
+
+
+           <!-- COMBAK: secand col  -->
+             <div style="margin:3px 0;width:20%;" >
+                 <img src="http://aff.bstatic.com/images/city/square250/644/644630.jpg" alt="" style="margin-bottom:11px; height:180px;">
+                 <div>
+                   <h3> <a href="#">الساحل الشمالي</a> </h3>
+                   <p>545 مكان إقامة</p>
+                 </div>
+           </div>
+
+
+           <!-- COMBAK: thrid col  -->
+             <div style="margin:3px 0;width:20%;" >
+                 <img src="http://aff.bstatic.com/images/city/square250/691/691353.jpg" alt="" style="margin-bottom:11px; height:180px;">
+                 <div>
+                   <h3> <a href="#">العين السخنة</a> </h3>
+                   <p>418 مكان إقامة</p>
+                 </div>
+           </div>
+
+
+
+
+           <!-- COMBAK: frouth col  -->
+             <div style="margin:3px 0;width:20%;" >
+                 <img src="http://aff.bstatic.com/data/region/square250/711/71192.jpg" alt="" style="margin-bottom:11px; height:180px;">
+                 <div>
+                   <h3> <a href="#">شرم الشيخ</a> </h3>
+                   <p>370 مكان إقامة</p>
+                 </div>
+           </div>
+
+
+
+           <!-- COMBAK: fifth col  -->
+             <div  style="margin:3px 0;width:20%;">
+                 <img src="http://aff.bstatic.com/images/city/square250/644/644356.jpg" alt="" style="margin-bottom:11px; height:180px;">
+                 <div>
+                   <h3> <a href="#">الغردقة</a> </h3>
+                   <p>898 مكان إقامة</p>
+                 </div>
+           </div>
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--JS Script--->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!--my js script-->
+<script src="js/js.js" charset="utf-8"></script>
+
+</body>
+</html>
